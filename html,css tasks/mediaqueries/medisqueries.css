@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(185, 185, 165);
+}
+h1{
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    color:white;
+    /* margin-bottom: 100px; */
+}
+form{
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 2rem;
+    column-gap: 20px;
+}
+button{
+    padding:10px;
+    background-image: linear-gradient(to right,white,black);
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+     /* position: absolute;
+    bottom: 0px; */
+
+
+}
+a{
+    padding:5px;
+    background-image: linear-gradient(to right,white,black);
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+}
+input{
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    caret-color: blue;
+    border-radius: 3px;
+}
+@media print and (orientation: landscape){
+    #heading{
+        color: red;
+        font-size: 50px;
+    }
+    #form{
+        font-size: 40px;
+        color: aqua;
+    }
+    #signup{
+        color: chartreuse;
+    }
+   
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    #heading{
+        color: white;
+        background-color: red;
+    }
+    #full-name2{
+        color: blue;
+        background-color: aquamarine;
+    }
+    #ph-num2{
+        background-color: black;
+        color: white;
+
+    }
+    #date2{
+        background-color: chartreuse;
+        color: blueviolet;
+
+    }
+    #password2{
+        background-color: cornflowerblue;
+        color: red;
+
+    }
+    #signup{
+        color: aqua;
+        background-image: linear-gradient(to right,rgb(21, 136, 4),rgb(183, 192, 5));
+    }
+    
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    #heading{
+        background-color: cornflowerblue;
+        color: red;
+
+    }
+    #full-name2{
+        background-color: chartreuse;
+        color: blueviolet;
+    }
+    #ph-num2{
+        color: blue;
+        background-color: aquamarine;
+
+    }
+    #date2{
+        background-color: black;
+        color: white;
+
+    }
+    #password2{
+        color: blue;
+        background-color: aquamarine;
+    }
+    #signup{
+        color: rgb(225, 11, 157);
+        background-image: linear-gradient(to right,yellow,blue);
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    #heading{
+        color: white;
+        background-color: red;
+    }
+    #full-name2{
+        color: blue;
+        background-color: aquamarine;
+    }
+    #ph-num2{
+        background-color: black;
+        color: white;
+
+    }
+    #date2{
+        background-color: chartreuse;
+        color: blueviolet;
+
+    }
+    #password2{
+        background-color: cornflowerblue;
+        color: red;
+
+    }
+    #signup{
+        color: aqua;
+        background-image: linear-gradient(to right,rgb(21, 136, 4),rgb(183, 192, 5));
+    }
+
+
+}

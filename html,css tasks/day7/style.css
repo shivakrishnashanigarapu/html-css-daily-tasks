@@ -1,0 +1,36 @@
+.probable-team{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: aqua;
+    text-shadow: 4px 4px 4px;
+
+
+} 
+ 
+#indian-team{
+    height: 400px;
+}
+
+
+#team-india{
+    height: 400px;
+    width: 100%;
+}    
+
+#para{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: rgb(166, 89, 89);
+    text-shadow: 4px 4px 4px;
+    text-decoration: line-through;
+    text-wrap: wrap;
+    text-indent: 30px;
+    line-height: 20px;
+    text-align-last: center;
+    column-count: 4;
+    column-gap: 50px;
+
+}

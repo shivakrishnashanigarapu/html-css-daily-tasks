@@ -1,0 +1,35 @@
+h1{
+    margin: 400px;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    /* shorthand property */
+
+    border-style: solid;
+    /* dotted
+    doubleline
+    dashed */
+
+    border-width: 100px 60px;
+    /* border-top-width: 50px;
+    border-bottom-width: 50px;
+    border-left-width: 50px;
+    border-right-width: 50px; */
+
+    border-color: aqua;
+    
+    /* border-top-color: 50px;
+    border-bottom-color: 50px;
+    border-left-color: 50px;
+    border-right-color: 50px; */
+    
+    padding: 100px;
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px; */
+
+    /* border: 50px solid aqua; shorthand property */
+
+}

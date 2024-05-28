@@ -1,0 +1,88 @@
+*{    padding: 0;
+    box-sizing: content-box;
+    text-transform: capitalize;
+    background-color: rgb(183, 218, 96);
+}
+.name:nth-child(1){
+    background-color: blueviolet;
+}
+
+
+.name{
+    height: 50px;
+    width: 120px;
+    background-color: aqua;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#names{
+    display: flex;
+    height: 50vh; 
+    flex-direction: row;
+    /*column,row-reverse,colomn-reverse */
+    justify-content: space-evenly;
+    /* justify-content:start,end, center,space-around,space-between,space-evenly ; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.name-1{
+    order: 8;
+    flex-grow:5;
+    /* flex-basis: 100px; */
+}
+.name-2{
+    order: 7;
+    /* flex-grow:2; */
+    flex-shrink: 100;
+
+}
+.name-3{
+    order: 6;
+    flex-grow:1;
+}
+.name-4{
+    order: 5;
+    flex-grow:2;
+
+}
+.name-5{
+    order: 4;
+    flex-grow:1;
+}
+.name-6{
+    order: 3;
+    flex-grow:2;
+
+}
+.name-7{
+    order: 2;
+    flex-grow:1;
+}
+
+#flowers{
+    display:flex;
+    height: 50vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.flower-1{
+    order: 4;
+    
+}
+.flower-2{
+    order: 3;
+      
+}
+.flower-3{
+    order: 2;
+}
+   
+.flower-4{
+    order: 1;
+}

@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+15&display=swap');
+
+*{
+    color: rgb(239, 4, 98);
+    text-transform: capitalize;
+}
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+#para1{
+    color: brown;
+}
+#para2{
+    color: chocolate;
+}
+.country{
+    color: crimson;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: black;
+    font-weight: 500;
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-family: "Jersey 15", sans-serif;
+}
